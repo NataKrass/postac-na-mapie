@@ -6,7 +6,7 @@ export const useKeyboardMovement = ( position: Position,
   useEffect(() => {
     const STEP = 4
     const MIN = 0
-    const MAX = 98 
+    const MAX = 95.5
 
     const clamp = (value: number) => Math.min(MAX, Math.max(MIN, value))
 
